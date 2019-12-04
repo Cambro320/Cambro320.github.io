@@ -1,0 +1,54 @@
+body, html { 
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  background: url(nasa-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-search {
+  color:#669999;
+  border-color:#669999;
+  background: white;
+}
+
+.buffer{
+  height:20rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color:#ffffff;
+}
+
+hr {
+  border-color: orange;
+  border-width: 2px;
+  max-width: 200px;
+}
+
+.btn-find-more {
+  font-weight: 600;
+  font-size: .8rem;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-find-more:hover {
+  background-color: rgb(253, 203, 110);
+  border-color: rgb(253, 203, 110);
+  border-width: 4px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+}
