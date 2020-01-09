@@ -25,6 +25,8 @@
       src="https://kit.fontawesome.com/cf7a317168.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -49,10 +51,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Resume</a>
@@ -61,61 +63,108 @@
       </div>
     </nav>
     <section id="home">
-      <p class="slide-in-left">Hi I'm Jory Smith</p>
-      <p class="slide-in-right">Full Stack Software Developer</p>
+      <p class="name slide-in-left">Hi, I'm Jory Smith</p>
+      <p class="job slide-in-right">Full Stack Software Developer</p>
       <p class="puff-in-center">
         <i class="fab fa-react"> React</i>
         <i class="fab fa-js"> JavaScript</i>
         <i class="fab fa-html5"> HTML5</i>
         <i class="fab fa-css3-alt"> CSS3</i>
         <i class="fab fa-bootstrap"> Bootstrap</i>
+        <i class="fab fa-node"> Node.js</i>
+        <img class="postgres" src="./images/postgresql.png" alt="PostgreSQL" />
+        PostgreSQL
       </p>
     </section>
 
     <section id="about-me">
-      <p class="">
+      <img
+        class="profile-img"
+        data-aos="fade-right"
+        src="./images/profile.png"
+        alt="my profile picture"
+      />
+
+      <p data-aos="fade-left">
         I'm a full stack web developer, combat veteran, and accomplished defense
-        intelligence analyst. Skilled at creating responsive, scalable, and
-        powerfully functional websites. Adept at RESTful/CRUD web applications,
-        UI design, version control, and collaboration.
+        intelligence analyst. Have a passion for creating responsive, beautiful,
+        and powerfully functional websites. Skilled at building RESTful/CRUD web
+        applications with an emphasis on UI design that delivers UX results.
       </p>
-      <p class="">
-        I possess a wealth of abilities from a career in the defense
-        intelligence community including adapting to customer requirements and
-        providing award-winning technical and innovative support. Expert in
-        critical thinking, expedient problem-solving, rapid learning, elevating
-        teams, and designing exceptional products.
+      <p data-aos="fade-left">
+        I possess a wealth of abilities from a career in the US intelligence
+        community including adapting to rapidly changing customer requirements
+        and providing award-winning innovative support to multiple
+        organizations. Expert in critical thinking, expedient problem-solving,
+        rapid learning, elevating teams, and designing exceptional products that
+        fulfill key business needs.
       </p>
     </section>
 
-    <!-- <div>
-        <a target="_blank" href="https://face-recognition-machine-ai.herokuapp.com/">
-          <h3 class="project-wrapper__text-title">Face Detection Full Stack Web App</h3>
-        </a>
-        <div>
-          <p class="mb-4">
-            <strong>Key technologies:</strong> JavaScript, React, HTML5, CSS3, API integration, and PostgreSQL.                    
-          </p>
-          <p class="mb-4">
-            <strong>Key skills:</strong> Integrated an AI machine learning API from Clarifai. State management. 
-          </p>
-        </div>
-        <a target="_blank" class="cta-btn cta-btn--hero" href="https://face-recognition-machine-ai.herokuapp.com/">
-          See Live
-        </a>
-        <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Cambro320/face-recognition">
-          Front End GitHub
-        </a>
-        <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Cambro320/face-recognition-api">
-          Back End GitHub
-        </a>
-
-        <a href="https://face-recognition-machine-ai.herokuapp.com/" target="_blank">
-          <div data-tilt class="thumbnail rounded">
-            <img class="img-fluid" src="./assets/ai-project.png" />
+    <section class="projects" id="projects">
+      <div class="project">
+        <div class="project-description" data-aos="zoom-in-right">
+          <a
+            target="_blank"
+            href="https://face-recognition-machine-ai.herokuapp.com/"
+          >
+            <h3 class="project-name">
+              Face Detection Full Stack Web App
+            </h3>
+          </a>
+          <div>
+            <p class="">
+              <strong>Key technologies:</strong> JavaScript, React, HTML5, CSS3,
+              API integration, and PostgreSQL.
+            </p>
+            <p class="">
+              <strong>Key skills:</strong> Integrated an AI machine learning API
+              from Clarifai. State management.
+            </p>
           </div>
-        </a>        
+          <div class="buttons">
+            <a
+              target="_blank"
+              class=""
+              href="https://face-recognition-machine-ai.herokuapp.com/"
+            >
+              <button type="button" class="btn btn-primary">
+                See Live
+              </button>
+            </a>
+            <a
+              target="_blank"
+              class=""
+              href="https://github.com/Cambro320/face-recognition"
+            >
+              <button type="button" class="btn btn-primary">
+                Front End GitHub
+              </button>
+            </a>
+            <a
+              target="_blank"
+              class=""
+              href="https://github.com/Cambro320/face-recognition-api"
+            >
+              <button type="button" class="btn btn-primary">
+                Back End GitHub
+              </button>
+            </a>
+          </div>
+        </div>
 
+        <div data-aos="zoom-in-left">
+          <a
+            href="https://face-recognition-machine-ai.herokuapp.com/"
+            target="_blank"
+          >
+            <img class="project-img" src="./images/ai-project-sm.jpeg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
         <div class="row">
           <div class="">
             <a href="https://cambro320.github.io/robofriends/" target="_blank">
@@ -144,7 +193,7 @@
             </a> 
       </div> -->
 
-    <footer class="">
+    <footer class="text-center">
       <div class="container">
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
@@ -159,11 +208,12 @@
         </div>
         <hr />
         <p class="footer__text">
-          © 2020 Jory Smith. All Rights Reserved.
+          © Copyright 2020 Jory Smith. All Rights Reserved.
         </p>
       </div>
     </footer>
 
+    <script src="./script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

@@ -1,5 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 #home {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,7 +21,7 @@
 
 .slide-in-left {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
     both;
   animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
@@ -131,10 +141,16 @@
   }
 }
 
+.postgres {
+  width: 24px;
+  border-radius: 4px;
+}
+
 #about-me {
-  height: 400px;
-  padding: 10px 20vw;
+  padding: 60px 20vw;
   margin: 0;
+  font-size: 1.2rem;
+  text-indent: 40px;
   display: flex;
   color: #fff;
   flex-direction: column;
@@ -143,8 +159,83 @@
   background-color: #245b80;
 }
 
+.profile-img {
+  width: 200px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.projects {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10vw;
+  background-color: #000;
+  background: url(./images/home.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  margin-right: 40px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.project-name {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.project-name:hover {
+  transform: scale(1.02);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  border-radius: 15px;
+  width: 100%;
+  min-width: 300px;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  margin: 4px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
 @media only screen and (max-width: 600px) {
   #about-me {
-    height: 480px;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #about-me {
+    padding: 40px 10vw;
+  }
+  .project {
+    flex-wrap: wrap;
+  }
+  .project-description {
+    margin: 20px;
   }
 }
