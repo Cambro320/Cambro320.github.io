@@ -113,7 +113,12 @@ body {
   }
 }
 
-#home .puff-in-center {
+.dev-tools {
+  position: absolute;
+  bottom: 10px;
+}
+
+.dev-tools .puff-in-center {
   -webkit-animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
     2.5s both;
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
@@ -166,10 +171,6 @@ body {
   }
 }
 
-.dev-tools {
-  padding-top: 50px;
-}
-
 .postgres {
   width: 24px;
   border-radius: 4px;
@@ -204,6 +205,56 @@ body {
   margin: 10px 0;
 }
 
+#section-skills {
+  background-color: rgb(0, 150, 195);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#section-skills h1 {  
+  text-shadow: 1px 1px 2px black;  
+}
+
+#skills {
+  display: grid;  
+  padding: 20px 40px;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.core-skill {
+  background-color: grey;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  -o-box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+}
+
+.core-skill i {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.core-skill h5 {
+  text-shadow: 1px 1px 2px black;
+}
+
+.core-skill ul {
+  list-style-type: none;
+  padding-top: 8px;
+}
+
+.core-skill hr {
+  margin: 0px 10%;
+}
+
 .projects {
   background: url(./images/home.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -232,6 +283,17 @@ body {
   padding: 10px;
   border-radius: 15px;
   width: 450px;
+}
+
+.project-description:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
 }
 
 .project-name {
@@ -283,7 +345,7 @@ body {
   transform: scale(1.2);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
   #home .slide-in-left {
     font-size: 2rem;
   }
@@ -305,6 +367,8 @@ body {
   #about-me p {
     font-size: 1.1rem;
   }
+  #skills {
+    grid-template-columns: repeat(1, 300px);
 }
 
 @media only screen and (max-width: 992px) {
@@ -317,4 +381,5 @@ body {
   .project-description {
     margin: 20px;
   }
+
 }
