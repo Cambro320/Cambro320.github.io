@@ -23,6 +23,22 @@ body {
   background-size: cover;
 }
 
+.header-social-links {
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.header-social-links a {
+  margin: 0 10px;
+  color: rgb(36, 120, 255);
+  text-decoration: none;
+}
+
+.header-social-icon:hover {
+  transform: scale(1.2);
+}
+
 #home .slide-in-left {
   color: #fff;
   font-size: 3rem;
@@ -33,7 +49,7 @@ body {
 }
 #home .slide-in-right {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   padding: 0 10px;
   -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
     both;
@@ -150,26 +166,13 @@ body {
   }
 }
 
+.dev-tools {
+  padding-top: 50px;
+}
+
 .postgres {
   width: 24px;
   border-radius: 4px;
-}
-
-.header-social-links {
-  color: #fff;
-  font-size: 2rem;
-  padding-top: 40px;
-}
-
-.header-social-links a {
-  margin: 0 20px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-}
-
-.header-social-icon:hover {
-  transform: scale(1.2);
 }
 
 #about-me {
@@ -271,7 +274,7 @@ body {
 }
 
 .footer-social-links a {
-  margin: 0 20px;
+  margin: 0 10px;
   text-align: center;
   text-decoration: none;
 }
