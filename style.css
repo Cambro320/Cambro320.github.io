@@ -104,10 +104,6 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#home .puff-in-center i {
-  margin: ;
-}
-
 .tool {
   margin-left: 2px;
   margin-right: 8px;
@@ -157,6 +153,23 @@ body {
   border-radius: 4px;
 }
 
+.header-social-links {
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 40px;
+}
+
+.header-social-links a {
+  margin: 0 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-social-icon:hover {
+  transform: scale(1.2);
+}
+
 #about-me {
   padding: 20px 20vw;
   margin: 0;
@@ -185,14 +198,22 @@ body {
   margin: 10px 0;
 }
 
+.projects {
+  background: url(./images/home.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.projects h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
 .project {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 60px 10vw;
-  background-color: #000;
-  background: url(./images/home.jpg) no-repeat center center fixed;
-  background-size: cover;
 }
 
 .project-description {
@@ -235,6 +256,21 @@ body {
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+.footer-social-links {
+  color: blue;
+  font-size: 2rem;
+}
+
+.footer-social-links a {
+  margin: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-social-icon:hover {
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 600px) {
