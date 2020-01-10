@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,10 +8,11 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Muli", sans-serif;
 }
 
 #home {
-  height: 100vh;
+  height: 92vh;
   width: 100%;
   display: flex;
   text-align: center;
@@ -20,16 +23,17 @@ body {
   background-size: cover;
 }
 
-.slide-in-left {
+#home .slide-in-left {
   color: #fff;
   font-size: 3rem;
   -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
     both;
   animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
-.slide-in-right {
+#home .slide-in-right {
   color: #fff;
   font-size: 2rem;
+  padding: 0 10px;
   -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
     both;
   animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
@@ -91,16 +95,22 @@ body {
   }
 }
 
-.puff-in-center {
+#home .puff-in-center {
   -webkit-animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
     2.5s both;
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
   color: white;
   font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.puff-in-center i {
-  margin: 0 10px;
+#home .puff-in-center i {
+  margin: ;
+}
+
+.tool {
+  margin-left: 2px;
+  margin-right: 8px;
 }
 
 /* ----------------------------------------------
@@ -148,10 +158,9 @@ body {
 }
 
 #about-me {
-  padding: 60px 20vw;
+  padding: 20px 20vw;
   margin: 0;
   font-size: 1.2rem;
-  text-indent: 40px;
   display: flex;
   color: #fff;
   flex-direction: column;
@@ -160,10 +169,20 @@ body {
   background-color: #245b80;
 }
 
+#about-me h1 {
+  text-align: center;
+  margin: 10px;
+}
+
 .profile-img {
   width: 200px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
+}
+
+#about-me p {
+  text-indent: 40px;
+  margin: 10px 0;
 }
 
 .project {
@@ -219,8 +238,26 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  #home .slide-in-left {
+    font-size: 2rem;
+  }
+  #home .slide-in-right {
+    font-size: 1.5rem;
+    padding: 0 5px;
+    line-height: 1.8rem;
+  }
+  #home .puff-in-center {
+    padding: 0 5px;
+    line-height: 1.9rem;
+  }
   #about-me {
-    padding: 10px 10px;
+    padding: 0 10px;
+  }
+  .about-me {
+    font-size: 2rem;
+  }
+  #about-me p {
+    font-size: 1.1rem;
   }
 }
 
