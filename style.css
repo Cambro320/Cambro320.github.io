@@ -11,6 +11,22 @@ body {
   font-family: "Muli", sans-serif;
 }
 
+.navbar {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px,
+  inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px,
+    inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
 #home {
   height: 92vh;
   width: 100%;
