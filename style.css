@@ -59,7 +59,7 @@ body {
 
 #home .name {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   text-shadow: 1px 1px 2px black;
   -webkit-animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
     2.5s both;
@@ -68,7 +68,7 @@ body {
 
 #home .slide-in-right {
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   padding: 0 10px;
   -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
     both;
@@ -292,7 +292,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 10vw;
+  padding: 20px 10vw;
 }
 
 .project-description {
@@ -369,13 +369,18 @@ body {
 
 @media only screen and (max-width: 660px) {
   #home .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #home .job {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 0 5px;
-    line-height: 1.8rem;
+    line-height: 1rem;
+  }
+
+  .postgres {
+    width: 16px;
+    border-radius: 4px;
   }
 
   .tech-tools i {
