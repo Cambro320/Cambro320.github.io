@@ -221,7 +221,22 @@ body {
 
 #about-me p {
   text-indent: 40px;
-  margin: 10px 0;
+  margin: 10px 0 0;
+}
+
+h4 {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.ul-education,
+.ul-training {
+  margin: 0;
+}
+
+.ul-education li,
+.ul-training li {
+  font-size: 1.1rem;
 }
 
 #section-skills {
@@ -243,9 +258,15 @@ body {
   gap: 20px;
 }
 
+#skills a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .core-skill {
   background-color: grey;
   text-align: center;
+  padding-bottom: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
     inset rgba(0, 0, 0, 0.15) 0px -5px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px,
@@ -352,6 +373,16 @@ body {
   transform: scale(1.05);
 }
 
+.footer-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.footer-nav li {
+  padding: 5px 0;
+}
+
 .footer-social-links {
   color: blue;
   font-size: 2rem;
@@ -373,7 +404,7 @@ body {
   }
 
   #home .job {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0 5px;
     line-height: 1rem;
   }
