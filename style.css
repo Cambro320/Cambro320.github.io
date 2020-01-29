@@ -379,8 +379,9 @@ h4 {
 }
 
 .carousel-item img {
-  height: 500px;
   margin: auto;
+  max-width: 500px;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -413,43 +414,6 @@ h1 {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 660px) {
-  #home .name {
-    font-size: 1.5rem;
-  }
-
-  #home .job {
-    font-size: 1.1rem;
-    padding: 0 5px;
-    line-height: 1rem;
-  }
-
-  .postgres {
-    width: 16px;
-    border-radius: 4px;
-  }
-
-  .tech-tools i {
-    font-size: 1rem;
-  }
-
-  .tool {
-    font-size: 1rem;
-  }
-
-  #about-me {
-    padding: 0 10px;
-  }
-
-  #about-me p {
-    font-size: 1.1rem;
-  }
-
-  #skills {
-    grid-template-columns: repeat(1, 300px);
-  }
-}
-
 @media only screen and (max-width: 992px) {
   #about-me {
     padding: 40px 10vw;
@@ -459,5 +423,39 @@ h1 {
   }
   .project-description {
     margin: 20px;
+  }
+  .carousel-item img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #home .name {
+    font-size: 1.5rem;
+  }
+  #home .job {
+    font-size: 1.1rem;
+    padding: 0 5px;
+    line-height: 1rem;
+  }
+  .postgres {
+    width: 16px;
+    border-radius: 4px;
+  }
+  .tech-tools i {
+    font-size: 1rem;
+  }
+  .tool {
+    font-size: 1rem;
+  }
+  #about-me {
+    padding: 0 10px;
+  }
+  #about-me p {
+    font-size: 1.1rem;
+  }
+  #skills {
+    grid-template-columns: repeat(1, 300px);
   }
 }
