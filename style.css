@@ -364,6 +364,26 @@ h4 {
   transform: scale(1.05);
 }
 
+#codepens {
+  background-color: rgb(0, 150, 195);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#codepens h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.carousel-item img {
+  height: 500px;
+  margin: auto;
+  border-radius: 8px;
+}
+
 .footer-nav {
   list-style-type: none;
   margin: 0;
@@ -387,6 +407,10 @@ h4 {
 
 .footer-social-icon:hover {
   transform: scale(1.2);
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 660px) {
@@ -415,10 +439,6 @@ h4 {
 
   #about-me {
     padding: 0 10px;
-  }
-
-  h1 {
-    font-size: 2rem;
   }
 
   #about-me p {
