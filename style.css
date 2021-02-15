@@ -235,14 +235,15 @@ h4 {
 }
 
 #section-skills {
-  background-color: rgb(0, 150, 195);
+  background-color: #fff;
   color: #fff;
   text-align: center;
   padding: 20px 0;
 }
 
 #section-skills h1 {
-  text-shadow: 1px 1px 2px black;
+  color: grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #skills {
