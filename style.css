@@ -11,6 +11,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #245b80;
 }
 
 .navbar {
@@ -214,6 +215,12 @@ body {
   text-shadow: 1px 1px 2px black;  
 }
 
+.about-me img {
+  width: 225px;
+  border-radius: 50%;
+  padding: 1.5rem 0;
+}
+
 .about-me p {
   text-indent: 40px;
   padding: 1rem 0 0;
@@ -390,6 +397,10 @@ body {
   border-radius: 8px;
 }
 
+footer {
+  background-color: #fff;
+}
+
 .footer-nav {
   list-style-type: none;
   margin: 0;
@@ -413,6 +424,11 @@ body {
 
 .footer-social-icon:hover {
   transform: scale(1.2);
+}
+
+.copyright {
+  margin: 0;
+  padding: 1rem 0;
 }
 
 
