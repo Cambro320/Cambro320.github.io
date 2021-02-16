@@ -29,17 +29,6 @@ body {
   font-weight: bold;
 }
 
-.home {
-  height: 92vh;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url(./images/home.jpg) fixed no-repeat center;  
-  background-size: cover;
-}
 
 .header-social-links {
   color: #fff;
@@ -57,16 +46,28 @@ body {
   transform: scale(1.2);
 }
 
-.home .name {
+.home {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/home.jpg) fixed no-repeat center;  
+  background-size: cover;
+}
+
+.name {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 1px 1px 2px black;
   -webkit-animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
     2.5s both;
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s both;
 }
 
-.home .slide-in-right {
+.slide-in-right {
   color: #fff;
   font-size: 1.4rem;
   padding: 0 10px;
