@@ -18,7 +18,9 @@
 </head>
 
 <body>
+
   <header>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand">Jory Smith</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -35,86 +37,78 @@
         </ul>
         <div class="header-social-links">
           <a href="https://github.com/JorySmith" target="_blank">
-            <i class="fab fa-github header-social-icon"></i>
+            <i class="fab fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/joryiansmith/" target="_blank">
-            <i class="fab fa-linkedin header-social-icon"></i>
+            <i class="fab fa-linkedin"></i>
           </a>
           <a href="mailto:joryiansmith@gmail.com" target="_blank">
-            <i class="far fa-envelope header-social-icon"></i>
+            <i class="far fa-envelope"></i>
           </a>
         </div>
       </div>
     </nav>
+
   </header>
 
   <section class="home">
-    <p class="name puff-in-center">Hi, I'm Jory Smith</p>
-    <p class="job slide-in-right">
+    <h1 class="name puff-in-center">Hi, I'm Jory Smith</h1>
+    <p class="my-summary slide-in-right">
       Front-end web developer,
     </p>
-    <p class="job slide-in-right">
+    <p class="my-summary slide-in-right">
       disabled veteran, and former
     </p>
-    <p class="job slide-in-right">
+    <p class="my-summary slide-in-right">
       award-winning intelligence analyst.
     </p>
 
     <div class="dev-tools">
-      <p class="tech-tools puff-in-center">
-        <i class="fab fa-html5"></i><span class="tool"> HTML5</span class="tool">
-        <i class="fab fa-css3-alt"></i><span class="tool"> CSS3</span class="tool">
-        <i class="fab fa-js"></i><span class="tool"> JavaScript</span class="tool">
-        <i class="fab fa-bootstrap"></i><span class="tool"> Bootstrap</span class="tool">
+      <div class="tool-container puff-in-center">
+        <i class="fab fa-html5"></i><span class="tool"> HTML5</span>
+      </div>
+      <div class="tool-container puff-in-center">
+        <i class="fab fa-css3-alt"></i><span class="tool"> CSS3</span>
+      </div>
+      <div class="tool-container puff-in-center">
+        <i class="fab fa-js"></i><span class="tool"> JavaScript</span>
+      </div>
+      <div class="tool-container puff-in-center">
+        <i class="fab fa-bootstrap"></i><span class="tool"> Bootstrap</span>
+      </div>
+      <div class="tool-container puff-in-center">
         <img class="postgres" src="./images/postgresql.png" alt="PostgreSQL" />
         <span class="tool"> PostgreSQL</span>
-      </p>
+      </div>
     </div>
 
   </section>
 
   <section class="about-me">
 
-    <h1 data-aos="fade-up" data-aos-duration="600">About Me</h1>
-    <img src="./images/profile.png" alt="my profile picture" data-aos="fade-up" data-aos-duration="600">
-    <p data-aos="fade-left">
+    <h1 data-aos="fade-up" data-aos-duration="500">About Me</h1>
+    <img src="./images/profile.png" class="profile-picture" alt="my profile picture" data-aos="fade-up"
+      data-aos-duration="500">
+    <p data-aos="fade-left" data-aos-duration="500">
       I'm an entry-level front-end developer with about one year of experience. I'm also a disabled veteran and former
       award-winning intelligence analyst. I spent 16 years solving complex problems in the intelligence community,
       providing intelligence/data analysis, and elevating teams to deliver results that exceeded client expectations.
     </p>
-    <p data-aos="fade-left">
+    <p data-aos="fade-left" data-aos-duration="500">
       Currently, I'm looking to change careers and develop my skills in designing and building beautiful, responsive,
       and powerfully useful websites that deliver UX results. I can leverage my skills in consulting, rapid prototyping,
       and providing innovative solutions to solve key web development requirements and client needs.
     </p>
-    <div class="edu-training" data-aos="fade-right">
-      <h4>Education</h4>
-      <ul class="ul-education">
-        <li>MA in Management, 4.0 GPA, American Military University, 2019.</li>
-        <li>BA in Intelligence Studies, <em>Magna Cum Laude</em>, American Military University, 2013.</li>
-        <li>Non-Commissioned Officer (NCO) Academy, US Air Force, 2017.</li>
-        <li>Airman Leadership School, Distinguished Graduate and Top GPA, US Air Force, 2008.</li>
-      </ul>
-    </div>
-    <div data-aos="fade-right">
-      <h4>Web Development Training</h4>
-      <ul class="ul-training">
-        <li>Full-Stack Web Developer Course, Andrei Neagoie, Udemy.com, 2020.</li>
-        <li>Data Structures and Algorithms Course, Andrei Neagoie, Udemy.com, 2020.</li>
-        <li>Responsive Web Design Certification, freeCodeCamp.org, 2019.</li>
-        <li>Machine Learning and Data Science with Python Course, Jose Portilla, Udemy.com, 2019.</li>
-        <li>Natural Language Processing with Python Course, Jose Portilla, Udemy.com, 2019.</li>
-        <li>Modern Python 3 Bootcamp, Colt Steele, Udemy.com, 2019.</li>
-      </ul>
-    </div>
 
   </section>
 
   <section class="section-skills">
 
-    <h1 data-aos="fade-up" data-aos-duration="600">Skills</h1>
-    <div class="skills">
-      <div class="core-skill" data-aos="fade-up" data-aos-duration="600">
+    <h1 data-aos="fade-up" data-aos-duration="500">Skills</h1>
+
+    <div class="skills-container">
+
+      <div class="core-skill" data-aos="fade-up" data-aos-duration="500">
         <i class="fas fa-laptop-code"></i>
         <h5>Front-End Development:</h5>
         <hr />
@@ -127,7 +121,7 @@
         </ul>
       </div>
 
-      <div class="core-skill" data-aos="fade-up" data-aos-duration="600">
+      <div class="core-skill" data-aos="fade-up" data-aos-duration="500">
         <i class="fab fa-js-square"></i>
         <h5>Core Programming:</h5>
         <hr />
@@ -137,12 +131,10 @@
           <li><a href="https://repl.it/@JorySmith" target="_blank">Repl.it Coding Solutions</a></li>
           <li>Readable / Structured</li>
           <li>Emmet Typing Efficiency</li>
-
-
         </ul>
       </div>
 
-      <div class="core-skill" data-aos="fade-up" data-aos-duration="600">
+      <div class="core-skill" data-aos="fade-up" data-aos-duration="500">
         <i class="fas fa-server"></i>
         <h5>Back-End Development:</h5>
         <hr />
@@ -154,7 +146,7 @@
         </ul>
       </div>
 
-      <div class="core-skill" data-aos="fade-up" data-aos-duration="600">
+      <div class="core-skill" data-aos="fade-up" data-aos-duration="500">
         <i class="fas fa-robot"></i>
         <h5>Data Science and Machine Learning:</h5>
         <hr />
@@ -165,61 +157,127 @@
           <li>Process Improvements</li>
         </ul>
       </div>
+
     </div>
   </section>
 
-  <section class="projects" id="projects">
+  <section class="education-training">
 
-    <h1 data-aos="fade-up" data-aos-duration="600">Projects</h1>
-    <div class="project">
-      <div class="project-description" data-aos="zoom-in-right">
-        <a target="_blank" href="https://face-recognition-machine-ai.herokuapp.com/">
-          <h3 class="project-name">
-            Face Detection Full-Stack Web App Project
-          </h3>
-        </a>
-        <div>
-          <p class="">
-            <strong>Key technologies:</strong> React, JavaScript, HTML5, CSS3,
-            API integration, and PostgreSQL.
-          </p>
-          <p class="">
-            <strong>Key skills:</strong> Integrated an AI machine learning API
-            from Clarifai. Database management (register/update users, sign-in/sign-out). Responsive design (desktop,
-            tablet, mobile). Security (password hashing).
-          </p>
-        </div>
-        <div class="buttons">
-          <a target="_blank" class="" href="https://face-recognition-machine-ai.herokuapp.com/">
-            <button type="button" class="btn btn-primary">
-              See Live
-            </button>
-          </a>
-          <a target="_blank" class="" href="https://github.com/JorySmith/face-recognition">
-            <button type="button" class="btn btn-primary">
-              Front-End Code
-            </button>
-          </a>
-          <a target="_blank" class="" href="https://github.com/JorySmith/face-recognition-api">
-            <button type="button" class="btn btn-primary">
-              Back-End Code
-            </button>
-          </a>
-        </div>
+    <div class="edu-training-container">
+      <div class="education" data-aos="fade-right" data-aos-duration="500">
+        <h3>Education</h3>
+        <ul class="ul-education">
+          <li>MA in Management, 4.0 GPA, American Military University, 2019.</li>
+          <li>BA in Intelligence Studies, <em>Magna Cum Laude</em>, American Military University, 2013.</li>
+          <li>Non-Commissioned Officer (NCO) Academy, US Air Force, 2017.</li>
+          <li>Airman Leadership School, Distinguished Graduate and Top GPA, US Air Force, 2008.</li>
+        </ul>
       </div>
 
-      <div data-aos="zoom-in-left">
-        <a href="https://face-recognition-machine-ai.herokuapp.com/" target="_blank">
-          <img class="project-img" src="./images/ai-project-sm.jpeg" />
-        </a>
+      <div class="training" data-aos="fade-right" data-aos-duration="500">
+        <h3>Web Development Training</h3>
+        <ul class="ul-training" data-aos-duration="500">
+          <li>Full-Stack Web Developer Course, Andrei Neagoie, Udemy.com, 2020.</li>
+          <li>Data Structures and Algorithms Course, Andrei Neagoie, Udemy.com, 2020.</li>
+          <li>Responsive Web Design Certification, freeCodeCamp.org, 2019.</li>
+          <li>Machine Learning and Data Science with Python Course, Jose Portilla, Udemy.com, 2019.</li>
+          <li>Natural Language Processing with Python Course, Jose Portilla, Udemy.com, 2019.</li>
+          <li>Modern Python 3 Bootcamp, Colt Steele, Udemy.com, 2019.</li>
+        </ul>
       </div>
     </div>
+
+  </section>
+
+  <section class="projects">
+
+    <h1 data-aos="fade-up" data-aos-duration="500">Projects</h1>
+    <div class="projects-container">
+
+      <div class="project-container">
+
+        <div class="project-img" data-aos="fade-left">
+          <img src="./images/mytube-project.jpg">
+          <div class="project-desc-container">
+            <div class="project-description">
+              <a target="_blank" href="https://jorysmith.github.io/MyTube">
+                <h3 class="project-name">
+                  MyTube.com Video Entertainment
+                </h3>
+              </a>
+              <div>
+                <p class="">
+                  <strong>Key technologies:</strong> HTML5, CSS3.
+                </p>
+                <p class="">
+                  <strong>Description:</strong> A YouTube clone where users can watch various cat and dog videos.
+                </p>
+              </div>
+              <div class="buttons">
+                <a target="_blank" class="" href="https://jorysmith.github.io/MyTube/">
+                  <button type="button" class="btn btn-primary">
+                    See Live
+                  </button>
+                </a>
+                <a target="_blank" class="" href="https://github.com/JorySmith/MyTube">
+                  <button type="button" class="btn btn-primary">
+                    GitHub Repo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="project-container">
+
+        <div class="project-img" data-aos="fade-left">
+          <img src="./images/mytube-project.jpg">
+          <div class="project-desc-container">
+            <div class="project-description">
+              <a target="_blank" href="https://jorysmith.github.io/MyTube">
+                <h3 class="project-name">
+                  MyTube.com Video Entertainment
+                </h3>
+              </a>
+              <div>
+                <p class="">
+                  <strong>Key technologies:</strong> HTML5, CSS3.
+                </p>
+                <p class="">
+                  <strong>Description:</strong> A YouTube clone where users can watch various cat and dog videos.
+                </p>
+              </div>
+              <div class="buttons">
+                <a target="_blank" class="" href="https://jorysmith.github.io/MyTube/">
+                  <button type="button" class="btn btn-primary">
+                    See Live
+                  </button>
+                </a>
+                <a target="_blank" class="" href="https://github.com/JorySmith/MyTube">
+                  <button type="button" class="btn btn-primary">
+                    GitHub Repo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
 
   </section>
 
   <section class="codepens">
 
-    <h1 data-aos="fade-up" data-aos-duration="600">CodePens</h1>
+    <h1 data-aos="fade-up" data-aos-duration="500">CodePens</h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -266,37 +324,36 @@
   </section>
 
   <footer class="text-center">
-    <div class="container">
-      <a href="#top" class="back-to-top">
-        <i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
+
+    <a href="#top" class="back-to-top">
+      <i class="fa fa-angle-up fa-2x"></i>
+    </a>
+    <ul class="footer-nav">
+      <li class="footer-nav-item active">
+        <a class="footer-nav-link"
+          href="https://drive.google.com/file/d/10ixIiM3UOksvOc16c7ZNq-IEQZm3EWgF/view?usp=sharing"
+          target="_blank">Resume</a>
+      </li>
+    </ul>
+    <div class="footer-social-links">
+      <a href="https://github.com/JorySmith" target="_blank">
+        <i class="fab fa-github footer-social-icon"></i>
       </a>
-      <br>
-      <ul class="footer-nav">
-        <li class="footer-nav-item active">
-          <a class="footer-nav-link"
-            href="https://drive.google.com/file/d/10ixIiM3UOksvOc16c7ZNq-IEQZm3EWgF/view?usp=sharing"
-            target="_blank">Resume</a>
-        </li>
-      </ul>
-      <div class="footer-social-links">
-        <a href="https://github.com/JorySmith" target="_blank">
-          <i class="fab fa-github footer-social-icon"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/joryiansmith/" target="_blank">
-          <i class="fab fa-linkedin footer-social-icon"></i>
-        </a>
-        <a href="https://www.photo.net/640805" target="_blank">
-          <i class="fas fa-camera footer-social-icon"></i>
-        </a>
-        <a href="mailto:joryiansmith@gmail.com" target="_blank">
-          <i class="far fa-envelope footer-social-icon"></i>
-        </a>
-      </div>
-      <hr />
-      <p class="copyright">
-        © Copyright 2019-2021 Jory Smith. All Rights Reserved.
-      </p>
+      <a href="https://www.linkedin.com/in/joryiansmith/" target="_blank">
+        <i class="fab fa-linkedin footer-social-icon"></i>
+      </a>
+      <a href="https://www.photo.net/640805" target="_blank">
+        <i class="fas fa-camera footer-social-icon"></i>
+      </a>
+      <a href="mailto:joryiansmith@gmail.com" target="_blank">
+        <i class="far fa-envelope footer-social-icon"></i>
+      </a>
     </div>
+    <hr />
+    <p class="copyright">
+      © Copyright 2019-2021 Jory Smith. All Rights Reserved.
+    </p>
+
   </footer>
 
   <script src="./script.js"></script>
