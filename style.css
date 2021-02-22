@@ -414,7 +414,8 @@ h1 {
 }
 
 .codepens {
-  background-color: var(--clr-primary-bg);  
+  background: url(./images/home.jpg) no-repeat center center fixed;
+  background-size: cover;  
   text-align: center;
   padding: 4rem 0 6rem;
 }
