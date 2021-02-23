@@ -421,10 +421,47 @@ h1 {
 }
 
 .carousel-item img {
-  margin: auto;
+  min-width: 275px;
   max-width: 500px;
-  height: auto;
+  margin: auto;
   border-radius: 8px;
+}
+
+.contact {
+  padding: 4rem 0 6rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  padding: 0 .25rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  padding: .25rem 0;
+}
+
+.entry input,
+.entry textarea {
+  padding: .5rem .5rem;
+}
+
+.contact-form button {
+  padding: .5rem 0;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 
 footer {
