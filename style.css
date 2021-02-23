@@ -236,6 +236,97 @@ h1 {
   max-width: 80ch;
 }
 
+.projects {
+  background: url(./images/home.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 4rem .75rem;
+  
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  display: relative;  
+  min-width: 200px;
+  max-width: 450px;
+  margin: .75rem;
+}
+
+.project img {
+  display: block;
+  border-radius: 15px;
+  width: 100%;
+  height: auto;  
+}
+
+.project-desc-container {
+  font-size: 60%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;  
+}
+
+.project-desc-container:hover {
+  opacity: 1;  
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--clr-secondary-bg);
+  color: var(--fc-third); 
+  border-radius: 15px;
+  width: auto;
+  height: 100%;
+}
+
+.project-description:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  -o-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+}
+
+.project-name {
+  text-align: center;
+  padding-bottom: .75rem;
+  font-size: .75rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.project-info {
+  padding: 0 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: .25rem .5rem;
+  margin: .25rem;
+}
+
+.buttons button:hover {
+  transform: scale(1.02);
+}
+
 .section-skills {
   background-color: var(--clr-secondary-bg);  
   text-align: center;
@@ -327,92 +418,6 @@ h1 {
   font-size: .9rem;
 }
 
-.projects {
-  background: url(./images/home.jpg) no-repeat center center fixed;
-  background-size: cover;
-  padding: 4rem .75rem;
-  
-}
-
-.projects-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.project-container {
-  display: relative;  
-  min-width: 200px;
-  max-width: 450px;
-  margin: .75rem;
-}
-
-.project img {
-  display: block;
-  border-radius: 15px;
-  width: 100%;
-  height: auto;  
-}
-
-.project-desc-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  transition: .5s ease;
-  opacity: 0;  
-}
-
-.project-desc-container:hover {
-  opacity: 1;  
-}
-
-.project-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--clr-secondary-bg);
-  color: var(--fc-third);
-  padding: 1rem;
-  border-radius: 15px;
-  width: auto;
-  height: 100%;
-}
-
-.project-description:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
-  -o-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
-}
-
-.project-name {
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 1.3rem;
-  text-shadow: 1px 1px 2px black;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.btn {
-  margin: 4px;
-}
-
-.btn:hover {
-  transform: scale(1.02);
-}
-
 .codepens {
   background: url(./images/home.jpg) no-repeat center center fixed;
   background-size: cover;  
@@ -437,14 +442,14 @@ h1 {
   align-items: center;
   max-width: 500px;
   margin: 0 auto;
+  padding: 0 .5rem;
 }
 
 .contact-form {
   padding: 0 .25rem;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .entry {
@@ -462,6 +467,7 @@ h1 {
   padding: .5rem 0;
   background-color: #fff;
   border: 1px solid #fff;
+  margin-top: .25rem;
 }
 
 footer {
@@ -522,6 +528,14 @@ footer {
 
   .about-me img {
     padding: 1rem 0 1rem 0;
+  }
+
+  .project-desc-container {
+    font-size: 100%;    
+  }
+
+  .project-name {
+    font-size: 120%;  
   }
 
   .skills-container {
