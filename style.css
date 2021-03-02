@@ -455,7 +455,7 @@ h1 {
 .entry {
   display: flex;
   flex-direction: column;
-  padding: .25rem 0;
+  padding: .25rem 0;  
 }
 
 .entry input,
