@@ -350,6 +350,11 @@ h1 {
   width: 100%;
 }
 
+.design-container img:hover,
+.design-container img:focus {
+  box-shadow: 0 0 20px 4px #3d3d3d;
+}
+
 .section-skills {
   background-color: var(--clr-secondary-bg);  
   text-align: center;
