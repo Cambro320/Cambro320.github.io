@@ -247,7 +247,9 @@ h1 {
 .projects-container {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   flex-wrap: wrap;
+  max-width: 1000px;
 }
 
 .project-container {
