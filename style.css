@@ -19,7 +19,7 @@
 html,
 body {
   font-family: var(--ff-primary);
-  font-size: .75rem;
+  font-size: .9rem;
   color: var(--fc-primary);
   overflow-x: hidden;
   width: 100%;
