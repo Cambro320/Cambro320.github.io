@@ -570,6 +570,10 @@ footer {
     font-size: 120%;  
   }
 
+  .project-info {
+    font-size: 1rem;
+  }
+
   .skills-container {
     grid-template-columns: 320px 320px;
     column-gap: 1rem;
