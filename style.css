@@ -98,8 +98,7 @@ h1 {
   letter-spacing: .1rem;  
   margin-bottom: .5rem;
   -webkit-animation: slide-in-right 1s;
-    both;
-  animation: slide-in-right 1s ;
+  animation: slide-in-right 1s;
   text-shadow: 1px 1px 2px black;
 }
 
