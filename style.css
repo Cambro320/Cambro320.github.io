@@ -95,7 +95,6 @@ h1 {
 
 .home p {  
   font-size: 1.1rem;
-  letter-spacing: .1rem;  
   margin-bottom: .5rem;
   -webkit-animation: slide-in-right 1s;
   animation: slide-in-right 1s;
@@ -188,6 +187,7 @@ h1 {
 
 .my-tech-stack {
   background-color: #fff;
+  color: #000;
   padding: 4rem .75rem;  
   margin: 0;  
   font-size: 1.1rem;  
@@ -207,13 +207,32 @@ h1 {
 .tech-stack {
   text-align: center;
   margin-bottom: 4rem;
+  max-width: 1100px;
 }
 
-.tech-stack img {
+.tech-skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-container {
+  padding: .5rem;
+}
+
+.skill-container img {
   height: 100px;
   padding: 1rem;  
 }
 
+.skill-container img:hover, 
+.skill-container img:focus {
+  transform: scale(1.2);
+}
+
+.skill-container p {
+  font-size: .9rem;
+}
 
 .projects {
   background: url(./images/home.jpg) no-repeat center center fixed;
