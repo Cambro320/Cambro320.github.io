@@ -424,10 +424,6 @@ h1 {
   border: 1px solid var(--fc-primary);
 }
 
-.ul-skills li {
-  /* font-weight: normal; */
-}
-
 .education-training {
   padding: 4rem .75rem;  
   margin: 0;  
