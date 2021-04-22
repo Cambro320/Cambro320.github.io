@@ -237,8 +237,7 @@ h1 {
 .projects {
   background: url(./images/home.jpg) no-repeat center center fixed;
   background-size: cover;
-  padding: 4rem .75rem;
-  
+  padding: 4rem .75rem;  
 }
 
 .projects-container {
@@ -258,7 +257,7 @@ h1 {
 
 .project img {
   display: block;
-  border-radius: 15px;
+  border-radius: 5px;
   width: 100%;
   height: auto;  
 }
@@ -344,18 +343,19 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1100px;
+  max-width: 1100px;  
 }
 
 .design-container {  
   text-align: center;
   padding: 1rem;
   max-width: 350px;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
 
 .design-container img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .design-container img:hover,
