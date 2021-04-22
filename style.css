@@ -430,7 +430,8 @@ h1 {
   display: flex;  
   flex-direction: column;
   align-items: center;
-  background-color: var(--clr-primary-bg);
+  background: url(./images/home.jpg) no-repeat center center fixed;  
+  background-size: cover;
 }
 
 .edu-training-container {
