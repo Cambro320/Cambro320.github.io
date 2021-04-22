@@ -454,20 +454,6 @@ h1 {
   font-size: .9rem;
 }
 
-.codepens {
-  background: url(./images/home.jpg) no-repeat center center fixed;
-  background-size: cover;  
-  text-align: center;
-  padding: 4rem 0 6rem;
-}
-
-.carousel-item img {
-  min-width: 275px;
-  max-width: 500px;
-  margin: auto;
-  border-radius: 8px;
-}
-
 .contact {
   padding: 4rem 0 6rem;
 }
