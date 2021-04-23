@@ -606,6 +606,10 @@ footer {
     padding: 0rem 2rem;
   }
   
+  .menu {
+    display: none;
+  }
+  
   .home h1 {
     font-size: 3.25rem;    
   }
