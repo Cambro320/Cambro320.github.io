@@ -73,7 +73,8 @@ h1 {
   display: none;
 }
 
-.brand-name {
+.brand-name,
+.navbar-brand {
   margin: 0;
 }
 
