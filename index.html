@@ -21,14 +21,28 @@
 
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">Jory Smith</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <div class="header-social-links">
+    <nav>
+
+      <div class="navbar-personal">
+
+        <div class="brand">
+          <button class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu-desktop">
+            <ul class="menu-items-desktop">
+              <li><a href="#tech-stack">My Stack</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#designs">Designs</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+          <p class="brand-name">
+            <a href="#contact" class="navbar-brand">Jory Smith</a>
+          </p>
+        </div>
+
+        <div class="header-social-links inactive">
           <a href="https://github.com/JorySmith" target="_blank">
             <i class="fab fa-github"></i>
           </a>
@@ -39,7 +53,19 @@
             <i class="far fa-envelope"></i>
           </a>
         </div>
+
+        <div class="menu inactive">
+          <ul class="menu-items">
+            <li><a href="#tech-stack">My Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#designs">Designs</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+
       </div>
+
+
     </nav>
 
   </header>
@@ -60,12 +86,9 @@
         Military Veteran
       </p>
 
-
-      </div>
-
     </section>
 
-    <section class="my-tech-stack">
+    <section class="my-tech-stack" id="tech-stack">
 
       <h1 data-aos="fade-up" data-aos-duration="500">My Tech Stack</h1>
 
@@ -120,7 +143,7 @@
 
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
 
       <h1 data-aos="fade-up" data-aos-duration="500">Projects</h1>
 
@@ -338,7 +361,7 @@
 
     </section>
 
-    <section class="designs">
+    <section class="designs" id="designs">
 
       <h1 data-aos="fade-up" data-aos-duration="500">Designs</h1>
 
