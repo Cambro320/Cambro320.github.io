@@ -36,7 +36,6 @@ nav {
   position: relative;
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
-  z-index: 9998;
 }
 
 .navbar-personal {
@@ -633,8 +632,8 @@ footer hr {
   }
 
   .menu-items-desktop a {
-    transition: all 200s ease-out;
-    -webkit-transition: all 200ms ease-in-out;
+    transition: all 100s ease-out;
+    -webkit-transition: all 100ms ease-out;
   }
   
   .menu-items-desktop a:hover {
