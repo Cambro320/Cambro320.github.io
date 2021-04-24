@@ -55,16 +55,15 @@ nav {
 }
 
 .brand button {
-  background-color: rgb(255, 255, 255, .25);
-  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, .0);
+  border: none;
   border-radius: 5px;
   height: 50px;
   width: 50px;
   position: relative;
-}
-
-.brand button i {
-  padding-top: .1rem;
 }
 
 .menu-icon i {
