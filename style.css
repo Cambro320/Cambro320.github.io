@@ -3,11 +3,9 @@
 :root {
   --clr-primary-bg: #245b80;
   --clr-secondary-bg: #fff;
-
   --fc-primary: #fff;
   --fc-secondary: #5a5a5a;
   --fc-third: #000;
-
   --ff-primary: "Muli", sans-serif;  
 }
 
@@ -33,6 +31,13 @@ h1 {
   letter-spacing: .1rem;
   padding: 0 0 1.75rem;
 }  
+
+nav {  
+  position: relative;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
+  z-index: 9998;
+}
 
 .navbar-personal {
   padding: .5rem;
@@ -604,6 +609,18 @@ footer {
 
   .menu-items-desktop li {
     padding: 0rem 2rem;
+    
+  }
+
+  .menu-items-desktop a {
+    transition: all 200s ease-out;
+    -webkit-transition: all 200ms ease-in-out;
+  }
+  
+  .menu-items-desktop a:hover {
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: .25rem .75rem;
   }
   
   .menu {
