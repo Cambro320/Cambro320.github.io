@@ -1,0 +1,96 @@
+@use 'colors' as c;
+$ff-primary: "Muli", sans-serif;
+
+html,
+body {
+  background-color: c.$bg-color2;
+  font-family: $ff-primary;
+  font-size: 1rem;
+  color: c.$ft-color1;
+}
+
+a {
+  text-decoration: none;
+}
+
+section h1 {
+  font-size: 2rem;
+  text-align: center;  
+  letter-spacing: .25rem;
+  padding: 0 0 2rem;
+} 
+
+.header-social-links {
+  margin-left: 1rem;
+}
+
+.header-social-links i {
+  font-size: 1.4rem;
+  padding: .75rem 0;
+  text-decoration: none;    
+}
+
+.home h1 {
+  font-size: 1.75rem;
+  padding-bottom: .75rem;   
+  text-shadow: 1px 1px 2px c.$ft-color3;
+}
+
+.home p {  
+  font-size: 1.5rem;
+  margin-bottom: .5rem;  
+  text-shadow: 1px 1px 2px c.$ft-color3;
+}
+
+.my-tech-stack h1,
+.contact h1 {
+  color: c.$ft-color2;    
+} 
+
+.my-tech-stack p {
+  font-size: 1.1rem; 
+}
+
+.project-name {
+  font-size: .8rem;
+  text-align: center;
+  padding-bottom: .75rem;  
+}
+
+.project-info {
+  font-size: .6rem;
+  padding: 0 1rem;
+}
+
+.buttons button {
+  font-size: .8rem;
+  padding: .15rem .3rem;
+  margin: .25rem;
+}
+
+.skills-container {
+  color: c.$ft-color4;  
+}
+
+.core-skill{ 
+  i {
+    font-size: 3rem;
+    padding: 20px;
+  }
+  ul {
+    line-height: 1.7rem;
+  }
+} 
+
+.education h3,
+.training h3 {
+  font-size: 1.1rem;
+  padding-bottom: .5rem;
+}
+
+.ul-education,
+.ul-training {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin: 0;
+}
