@@ -1,5 +1,6 @@
 @use 'colors' as c;
 $ff-primary: "Muli", sans-serif;
+$ff-secondary: 'Prompt', sans-serif;
 
 html,
 body {
@@ -29,16 +30,24 @@ section h1 {
   }
 }
 
+.home h1,
+.home p { 
+  font-family: $ff-secondary;
+  font-weight: 300;
+}
+
 .home h1 {
   font-size: 1.75rem;
+  letter-spacing: .25rem;
   padding-bottom: .75rem;   
-  text-shadow: 1px 1px 2px c.$ft-color3;
+  text-shadow: 1px 1px 2px c.$ft-color4;
 }
 
 .home p {  
   font-size: 1.5rem;
+  letter-spacing: .2rem;
   margin-bottom: .5rem;  
-  text-shadow: 1px 1px 2px c.$ft-color3;
+  text-shadow: 1px 1px 2px c.$ft-color4;
 }
 
 .my-tech-stack h1,
