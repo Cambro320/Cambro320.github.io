@@ -1,3 +1,9 @@
 # Personal Portfolio Page
 
-This is my portfolio page and displays my background, web development skills, and examples of my work. 
+I'm a full-stack developer, UI designer, and photographer.
+
+See Live: https://jorysmith.github.io/personal-portfolio-page/
+
+Displays my web development skills, tech stack, and projects.
+
+Built with JavaScript, Bootstrap, Sass, HTML5, and CSS3.
