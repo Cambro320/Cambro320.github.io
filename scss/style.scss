@@ -92,12 +92,49 @@ nav {
   align-items: center;
   background: url("../images/home.jpg") no-repeat center center fixed;
   background-size: cover;  
+
+  button {
+    color: c.$bg-color2;
+    background-color: c.$ft-color1;
+    border: 1px solid c.$bg-color2;
+    
+    border-radius: 5px;
+    padding: .5rem 2.5rem;
+    margin-top: 2.5rem;
+    box-shadow: 0 2px 10px 0 c.$bg-color5;
+  }
+
+  button:hover {
+    color: c.$ft-color1;
+    background-color: c.$bg-color2;
+    border: 1px solid c.$ft-color1;
+  }
+
+  a:hover {
+    color: inherit;
+  }
+}
+
+.about-me {
+  padding: 4rem .75rem;  
+}
+
+.about-me-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about-me-info-pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .profile-picture {
-  width: 160px;
+  min-width: 100px;
+  max-width: 160px;
   border-radius: 20%;
-  padding: 1rem 0;
+  margin: .75rem 0 3rem;
   -webkit-filter: sepia(50%); 
   filter: sepia(50%);
 } 
@@ -116,7 +153,7 @@ nav {
 .tech-stack {
   text-align: center;
   margin-bottom: 4rem;
-  max-width: 1000px;
+  max-width: 1025px;
 }
 
 .tech-skills {
@@ -154,13 +191,13 @@ nav {
   justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .project-container {
   display: relative;  
   min-width: 200px;
-  max-width: 1000px;
+  max-width: 1025px;
   margin: .75rem;
 }
 
@@ -203,10 +240,8 @@ nav {
   padding: .5rem 0;
 }
 .project-description:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;            
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px;            
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px;
 }     
 
 .buttons {
