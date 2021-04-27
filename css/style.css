@@ -559,7 +559,7 @@ footer {
 
 .fa-angle-up {
   color: #fff;
-  padding: 1rem 0 0.75rem;
+  padding: 1rem 0 0;
 }
 
 .footer-nav {
@@ -574,6 +574,7 @@ footer {
 
 .footer-social-links {
   font-size: 2rem;
+  padding: 1rem 0 0.25rem;
 }
 .footer-social-links a {
   color: #fff;
@@ -585,12 +586,6 @@ footer {
 .fa-angle-up:hover,
 .footer-social-icon:hover {
   color: #73c7ff;
-}
-
-footer hr {
-  border: 1px solid #fff;
-  width: 60vw;
-  margin: 1rem auto 0.2rem;
 }
 
 .copyright {

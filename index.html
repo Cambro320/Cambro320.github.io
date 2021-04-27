@@ -23,7 +23,7 @@
     <nav>
       <div class="navbar-personal">
         <div class="brand">
-          <button class="menu-icon" id="menu-icon">
+          <button name="menu icon" class="menu-icon" id="menu-icon">
             <i class="fas fa-bars"></i>
           </button>
           <div class="menu-desktop">
@@ -173,7 +173,7 @@
 
         <div class="project-container">
           <div class="project" data-aos="fade-left">
-            <img src="./images/herbie-project.jpg">
+            <img src="./images/herbie-project.jpg" alt="herbie cosmetics website prototype project">
             <div class="project-desc-container">
               <div class="project-description">
                 <h3 class="project-name">
@@ -204,7 +204,7 @@
 
         <div class="project-container">
           <div class="project" data-aos="fade-left">
-            <img src="./images/theo-project.jpg">
+            <img src="./images/theo-project.jpg" alt="theo's boutique website prototype project">
             <div class="project-desc-container">
               <div class="project-description">
                 <h3 class="project-name">
@@ -235,7 +235,7 @@
 
         <div class="project-container">
           <div class="project" data-aos="fade-left">
-            <img src="./images/smartfitness-project.jpg">
+            <img src="./images/smartfitness-project.jpg" alt="smart fitness gyms website prototype project">
             <div class="project-desc-container">
               <div class="project-description">
                 <h3 class="project-name">
@@ -266,7 +266,7 @@
 
         <div class="project-container">
           <div class="project" data-aos="fade-left">
-            <img src="./images/feature-request-project.jpg">
+            <img src="./images/feature-request-project.jpg" alt="feature request tracker app project">
             <div class="project-desc-container">
               <div class="project-description">
                 <h3 class="project-name">
@@ -297,7 +297,7 @@
 
         <div class="project-container">
           <div class="project" data-aos="fade-left">
-            <img src="./images/weather-project.jpg">
+            <img src="./images/weather-project.jpg" alt="react weather app project">
             <div class="project-desc-container">
               <div class="project-description">
                 <h3 class="project-name">
@@ -408,15 +408,16 @@
       <div class="contact-container">
         <form class="contact-form" action="https://formspree.io/f/xyybaqpp" method="POST">
           <div class="entry">
-            <label for="name">Your Name:</label><input type="text" name="name" required>
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" required>
           </div>
           <div class="entry">
             <label for="email">Your Email:</label>
-            <input type="email" name="_replyto" required>
+            <input type="email" id="email" name="_replyto" required>
           </div>
           <div class="entry">
             <label for="message">Message:</label>
-            <textarea name="message" rows="6" required></textarea>
+            <textarea name="message" id="message" rows="6" required></textarea>
           </div>
           <button type="submit" value="Send">Submit</button>
         </form>
@@ -426,20 +427,20 @@
   </main>
 
   <footer class="text-center">
-    <a href="#top" class="back-to-top">
+    <a href="#top" class="back-to-top" aria-label="back to the top of this page">
       <i class="fa fa-angle-up fa-2x"></i>
     </a>
     <div class="footer-social-links">
-      <a href="https://github.com/JorySmith" target="_blank">
+      <a href="https://github.com/JorySmith" target="_blank" aria-label="my github page link">
         <i class="fab fa-github footer-social-icon"></i>
       </a>
-      <a href="https://www.linkedin.com/in/joryiansmith/" target="_blank">
+      <a href="https://www.linkedin.com/in/joryiansmith/" target="_blank" aria-label="my linked in page link">
         <i class="fab fa-linkedin footer-social-icon"></i>
       </a>
-      <a href="https://www.photo.net/640805" target="_blank">
+      <a href="https://www.photo.net/640805" target="_blank" aria-label="my photography portfolio link">
         <i class="fas fa-camera footer-social-icon"></i>
       </a>
-      <a href="#contact">
+      <a href="#contact" aria-label="contact me form link">
         <i class="far fa-envelope footer-social-icon"></i>
       </a>
     </div>
